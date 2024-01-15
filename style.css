@@ -166,7 +166,84 @@ select.select-input {
   padding: 15px 34px;
   margin-top: 24px;
 }
+.destination-section {
+  text-align: center;
+}
+.destination-title {
+  color: var(--title-color);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.destination-description {
+  width: 643px;
+  margin: 1.5rem auto;
+  color: var(--paragraph-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.destination-row-1,
+.destination-row-2,
+.destination-row-3 {
+  display: flex;
+  gap: 24px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+}
+.row-1 {
+  width: 573px;
+  height: 300px;
+}
+.destination-row-2 {
+  margin-top: -100px;
+}
+.row-1,
+.row-2,
+.row-3 {
+  margin-top: 130px;
+}
+.destination-row-3 {
+  margin-top: 24px;
+}
 
+.maldives {
+  background: url("assets/images/maldives.png");
+}
+.indonesia {
+  background: url("assets/images/indonesia.png");
+}
+.srilanka {
+  background: url("assets/images/srilanka.png");
+  width: 374px;
+  height: 286px;
+}
+.northamerica {
+  background: url("assets/images/northamerica.png");
+  width: 474px;
+  height: 286px;
+}
+.kashmir {
+  background: url("assets/images/kashmir.png");
+  width: 275px;
+  height: 286px;
+}
+.bangladesh {
+  background: url("assets/images/bangladesh.png");
+  width: 473px;
+  height: 300px;
+}
+.bandarban {
+  background: url("assets/images/bandarban.png");
+  width: 673px;
+  height: 300px;
+}
+.places {
+  background-repeat: no-repeat;
+}
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 600px) {
@@ -235,10 +312,42 @@ select.select-input {
   .tour-img img {
     width: 335px;
     height: 342px;
-
   }
-  .btn-read-more{
+  .btn-read-more {
     margin-left: 110px;
+  }
+  .destination-title {
+    font-size: 1.25rem;
+  }
+  .destination-description {
+    width: 309px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  .destination-row-1,
+  .destination-row-2,
+  .destination-row-3 {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .places {
+    width: 335px;
+    height: 175px;
+    background-size: cover;
+    border-radius: 16px;
+  }
+  .row-1{
+    width: 335px;
+    height: 176px;
+  }
+  .row-1,
+  .row-2,
+  .row-3 {
+    margin-top: 60px;
+  }
+  .indonesia{
+    margin-bottom: 120px;
   }
 }
 
@@ -266,7 +375,7 @@ select.select-input {
     flex-direction: column;
     padding: 10px;
   }
-  .tour-img img{
+  .tour-img img {
     width: 735px;
     margin-top: -100px;
   }
