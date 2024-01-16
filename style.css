@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish", "Inter", sans-serif;
 }
 :root {
   --primary-color: #ff5400;
@@ -541,6 +541,52 @@ select.select-input {
   font-weight: 400;
   padding-top: 20px;
 }
+/* footer section styles */
+footer {
+  height: 402px;
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  margin: auto;
+  padding: 110px;
+}
+.footer-title {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.footer-title img {
+  width: 40px;
+  height: 46.673px;
+  flex-shrink: 0;
+}
+.footer-description {
+  width: 769px;
+  margin: auto;
+  margin-bottom: 33px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+hr {
+  width: 872px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.copyright {
+  margin-top: 100px;
+  color: var(--title-color);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-family: "Inter", sans-serif;
+}
+
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 600px) {
@@ -780,11 +826,34 @@ select.select-input {
     height: 79.268px;
     transform: rotate(-19.628deg);
   }
-  .site-link{
+  .site-link {
     font-size: 0.99088rem;
   }
-  .save-title{
+  .save-title {
     font-size: 1.32113rem;
+  }
+  footer {
+    width: 375px;
+    height: 309px;
+    padding: 30px;
+  }
+  .footer-title {
+    font-size: 1.34644rem;
+  }
+  .footer-description {
+    width: 287px;
+    font-size: 0.875rem;
+  }
+  hr {
+    width: 335px;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .copyright{
+    font-size: 0.875rem;
+    text-wrap: nowrap;
+    margin: auto;
   }
 }
 
