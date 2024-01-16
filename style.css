@@ -583,7 +583,49 @@ hr {
   font-size: 1rem;
   font-weight: 400;
 }
-
+/* extra section styles */
+.travel-partners-container {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(140, 140, 140, 0) 100%
+    ),
+    url("assets/images/extrabg.png");
+  width: 1400px;
+  height: 540px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 20px 20px 50px 20px grey;
+  
+}
+.travel-partners-container img {
+  filter: grayscale(100%);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+.travel-partners-container img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.4);
+}
+.extra-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  background-color: #00000054;
+  width: 700px;
+  margin: auto;
+  border-radius: 16px;
+  
+}
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 600px) {
@@ -864,6 +906,9 @@ hr {
     text-wrap: nowrap;
     margin: auto;
   }
+  .extra-section,.travel-partners-container,.extra-title {
+    display: none;
+  }
 }
 
 /* tablet devices */
@@ -986,5 +1031,8 @@ hr {
     font-size: 0.875rem;
     text-wrap: nowrap;
     margin: auto;
+  }
+  .extra-section,.travel-partners-container,.extra-title {
+    display: none;
   }
 }
