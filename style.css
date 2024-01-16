@@ -701,38 +701,37 @@ hr {
   .indonesia {
     margin-bottom: 120px;
   }
-  .service-title {
-    margin-top: -20px;
-    font-size: 1.5rem;
-    font-weight: 800;
-  }
-  .service-section {
-    width: 335px;
-  }
-  .service-description {
-    width: 309px;
-    margin: auto;
-  }
-  .service-card-container {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-  .card {
-    width: 100%;
-  }
+   .service-title {
+  font-size: 1.5rem;
+  margin-top: -30px;
+}
+.service-description {
+  width: 309px;
+  font-size: 0.875rem;
+  margin:  auto;
+  margin-bottom: -50px;
+}
+.card {
+  width: 305px;
+  height: 289px;
+  padding: 30px;
+  margin: 0 30px;
+}
+.card-description{
+  width: 271px;
+}
 
-  .card-description {
-    width: 100%;
-  }
 
   .deals-title {
     font-size: 1rem;
+    margin-top: 30px;
   }
 
   .deals-description {
     width: 309px;
     margin: auto;
     font-size: 0.875rem;
+    margin-bottom: 20px;
   }
   .deals-card-container,
   .deals-card-container2 {
@@ -787,7 +786,8 @@ hr {
   .perfect-title {
     width: 248px;
     font-size: 1.25rem;
-    margin: 40px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
     line-height: 1.875rem;
   }
   .place-list {
@@ -799,6 +799,7 @@ hr {
     font-size: 0.875rem;
     width: 335px;
     margin: 0 auto;
+    margin-top: -50px;
   }
   .place-video video {
     width: 335px;
