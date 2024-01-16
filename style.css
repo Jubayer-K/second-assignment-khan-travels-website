@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mulish", "Inter", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 :root {
   --primary-color: #ff5400;
@@ -578,13 +578,10 @@ hr {
   margin-top: 100px;
 }
 .copyright {
-  font-family: "Inter", sans-serif;
   margin-top: 100px;
   color: var(--title-color);
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
+  font-weight: 400;
 }
 
 /* responsive styles */
@@ -666,7 +663,7 @@ hr {
   .btn-read-more {
     margin-left: -15px;
     margin-top: 5px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
   .destination-title {
     font-size: 1.25rem;
@@ -701,26 +698,25 @@ hr {
   .indonesia {
     margin-bottom: 120px;
   }
-   .service-title {
-  font-size: 1.5rem;
-  margin-top: -30px;
-}
-.service-description {
-  width: 309px;
-  font-size: 0.875rem;
-  margin:  auto;
-  margin-bottom: -50px;
-}
-.card {
-  width: 305px;
-  height: 289px;
-  padding: 30px;
-  margin: 0 30px;
-}
-.card-description{
-  width: 271px;
-}
-
+  .service-title {
+    font-size: 1.5rem;
+    margin-top: -30px;
+  }
+  .service-description {
+    width: 309px;
+    font-size: 0.875rem;
+    margin: auto;
+    margin-bottom: -50px;
+  }
+  .card {
+    width: 305px;
+    height: 289px;
+    padding: 30px;
+    margin: 0 30px;
+  }
+  .card-description {
+    width: 271px;
+  }
 
   .deals-title {
     font-size: 1rem;
